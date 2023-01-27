@@ -1,10 +1,10 @@
 import random
 import pyautogui as pg
 import time
-words = ('bro', 'man', 'dude')
-time.sleep(8)
+words = ('aditivo a', 'aditivo b', 'aditivo c')
+time.sleep(3)
 
-for i in range(100):
+for i in range(15):
     a = random.choice(words)
-    pg.write('what r u making' + a)
+    pg.write('frase' + a)
     pg.press('enter')
